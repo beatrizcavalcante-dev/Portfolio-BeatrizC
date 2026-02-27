@@ -49,12 +49,23 @@ nav a:hover {
   justify-content: space-between;
   padding: 85px 10%;
   gap: 3cm;
-  }
+}
 
 .hero-img {
-  width: 220px;
+  width: 229px;
+  margin-top: 25px;
   margin-bottom: 20px;
   margin-right: 133px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.4s;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.hero-img:hover {
+  transform: scale(1.05);
 }
 
 /* TÍTULO */
@@ -63,7 +74,7 @@ nav a:hover {
   margin-bottom: 20px;
   color: #7a8f4d;
   letter-spacing: 2px;
-  }
+}
 
 /* PARÁGRAFO */
 .hero-text p {
@@ -71,7 +82,7 @@ nav a:hover {
   line-height: 1.8;
   color: #546332;
   font-family: 'Open Sans', sans-serif;
-    }
+}
 
 
 /* =========================
@@ -89,12 +100,7 @@ nav a:hover {
     max-width: 80%;
   }
 
-  .hero-img {
-    width: 180px;
-    margin-top: 25px;
-  }
-
-    .hero-text p {
+  .hero-text p {
     font-size: 15px;
   }
 
@@ -103,21 +109,8 @@ nav a:hover {
   max-width: 300px;
   min-width: 225px;
   }
-
-  .hero-img img {
-  width: 380px;
-  object-fit: cover;
-  cursor: pointer;
-  transition: 0.4s;
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  }
-
-  .hero-img img:hover {
-  transform: scale(1.05);
-  }
 }
+
 /* SKILLS */
 .skills {
   text-align: center;
