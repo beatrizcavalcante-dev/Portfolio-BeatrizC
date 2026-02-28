@@ -17,7 +17,11 @@ Projeto Cordel: https://biagibi.github.io/Projeto-Cordel/
 COLOCAR UMA FIGUERI DE MAÇA VERDE NO SITE
 
 “chat revisa responsividade completa”
+⭐ revisão final estilo portfólio de dev contratado
 
 versão dark mode
 
 - colocar projeto figma
+
+⭐ dark mode elegante
+⭐ botão “voltar ao topo” animado
