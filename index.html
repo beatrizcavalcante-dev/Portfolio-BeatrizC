@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
 
-  <!-- Google Font Open Sans -->
+  <link rel="icon" type="image/png" href="imagens/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
 <header>
@@ -20,6 +21,11 @@
       <li><a href="#projetos">Projetos</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
+
+    <button id="dark-mode-toggle" title="Ativar Dark Mode">
+      <img src="imagens/dark.PNG" alt="DARKMODE">
+    </button>
+
   </nav>
 </header>
 
@@ -51,14 +57,16 @@
     </div>
 </section>
 
+<button id="btn-topo">
+  <img src="imagens/seta.PNG" alt="Voltar ao topo" title="Voltar para o Topo">
+</button>
 
 <section class="skills" id="skills">
     <img src="imagens/skills.PNG" alt="Minhas Skills" class="titulo-skills">
 
     <div class="skills-container">
       <div class="skills-container">
-
-  <!-- HTML -->
+  
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -74,8 +82,7 @@
         </div>
       </div>
     </div>
-
-  <!-- CSS -->
+  
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -91,8 +98,7 @@
         </div>
       </div>
     </div>
-
-  <!-- JavaScript -->
+  
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -108,8 +114,7 @@
         </div>
       </div>
     </div>
-
-    <!-- GitHub -->
+    
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -126,7 +131,6 @@
       </div>
     </div>
     
-    <!-- VS Code -->
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -143,7 +147,6 @@
       </div>
     </div>
 
-    <!-- Figma -->
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -160,7 +163,6 @@
       </div>
     </div>
 
-    <!-- Canva -->
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -177,7 +179,6 @@
       </div>
     </div>
 
-    <!-- React -->
     <div class="skill-card" onclick="virarCard(this)">
       <div class="card-inner">
 
@@ -192,8 +193,6 @@
           <p>Componentes e estrutura de aplicações</p>
         </div>
       </div>
-    </div>
-
     </div>
 </section>
 
