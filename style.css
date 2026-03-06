@@ -188,10 +188,15 @@ nav a:hover {
 }
 
 .skill-card {
-  width: 160px;
+  width: 170px;
   height: 155px;
   perspective: 1000px;
   cursor: pointer;
+}
+
+.titulo-skill{
+  display: block;
+  margin-bottom: 8px;
 }
 
 .card-inner {
