@@ -85,7 +85,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 10%;
-  background-image: url('imagens/novofundo.jpg');
+  background-image: red;
   background-size: cover;
   background-position: center;
 }
